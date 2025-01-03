@@ -1,18 +1,23 @@
-import withLayoutMain from "@/libs/components/layout/LayoutHome";
-import { Box, Container, Stack } from "@mui/material";
-import { NextPage } from "next";
+import withLayoutMain from '@/libs/components/layout/LayoutHome'
+import { Container, Stack } from '@mui/material'
+import { NextPage } from 'next'
 
 const Home: NextPage = () => {
-  return (
-    <Container>
-      <Stack flexDirection={"column"}>
-        <Box>Popular Properties</Box>
-        <Box>Top Agents</Box>
-        <Box>Popular Properties</Box>
-        <Box>Events</Box>
-      </Stack>
-    </Container>
-  );
-};
+	return (
+		<Container>
+			<Stack flexDirection={'column'}>
+				<Stack>
+					<Stack className='container'>Popular Properties</Stack>
+				</Stack>
+				<Stack>
+					<Stack className='container'>Top Agents</Stack>
+				</Stack>
+				<Stack>
+					<Stack className='container'>Events</Stack>
+				</Stack>
+			</Stack>
+		</Container>
+	)
+}
 
-export default withLayoutMain(Home);
+export default withLayoutMain(Home)
