@@ -1,5 +1,8 @@
 import { Stack } from '@mui/material'
 import Head from 'next/head'
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
 import Footer from '../Footer'
 import Top from '../Top'
 import HeaderFilter from '../homepage/HeaderFilter'

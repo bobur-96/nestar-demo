@@ -17,7 +17,7 @@ const Footer = () => {
 						<p>+82 10 4867 2909</p>
 					</Box>
 					<Box component={'div'} className={'footer-box'}>
-						<span>nee live</span>
+						<span>now live</span>
 						<p>+82 10 4867 2909</p>
 						<span>Support?</span>
 					</Box>
