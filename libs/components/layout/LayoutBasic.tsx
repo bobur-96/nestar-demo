@@ -1,4 +1,3 @@
-/* eslint-disable react/display-name */
 import { Stack } from '@mui/material'
 import Head from 'next/head'
 
