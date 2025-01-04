@@ -9,6 +9,7 @@ const TrendProperties = () => {
 	const [trendProperties, setTrendProperties] = useState<number[]>([
 		1, 2, 3, 4, 5, 6, 7,
 	])
+
 	return (
 		<Stack className={'trend-properties'}>
 			<Stack className={'container'}>

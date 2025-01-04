@@ -42,17 +42,18 @@ const TrendPropertyCard = () => {
 					</div>
 				</div>
 				<Divider sx={{ mt: '15px', mb: '17px' }} />
+
 				<div className={'bott'}>
 					<p>Rent</p>
 					<div className='view-like-box'>
 						<IconButton color={'default'}>
 							<RemoveRedEyeIcon />
 						</IconButton>
-						<Typography className='view-cnt'>200</Typography>
+						<Typography className='view-cnt'>999+</Typography>
 						<IconButton color={'default'}>
 							<FavoriteIcon style={{ color: 'red' }} />
 						</IconButton>
-						<Typography className='view-cnt'>100</Typography>
+						<Typography className='view-cnt'>777</Typography>
 					</div>
 				</div>
 			</Box>
